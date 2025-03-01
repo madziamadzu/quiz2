@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #678CEC;
+    background-image: linear-gradient(315deg, #678CEC 0%, #D49BAE 100%);
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    flex-direction: column;
+}
+
+/* Title Page */
+
+#quizImage {
+    width: 300px;
+    /* Adjust size */
+    height: auto;
+    /* Keeps proportions */
+    display: block;
+    /* Center the image */
+    margin: 20px auto;
+    /* Space around the image */
+
+}
+
+.title-container {
+    background-color: #BBCB50;
+    border-radius: 10px;
+    padding: 3rem;
+    text-align: center;
+    box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+    max-width: 500px;
+}
+
+.title-container h1 {
+    margin-bottom: 10px;
+}
+
+.title-container p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.quiz-container {
+    background-color: #BBCB50;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+    width: 600px;
+    overflow: hidden;
+}
+
+.quiz-header {
+    padding: 4rem;
+}
+
+h2 {
+    padding: 1rem;
+    text-align: center;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+ul li label {
+    cursor: pointer;
+}
+
+button {
+    background-color: #678CEC;
+    color: #BBCB50;
+    border: none;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-family: inherit;
+    padding: 1.3rem;
+}
+
+button:hover {
+    background-color: #7267ec;
+}
+
+button:focus {
+    outline: none;
+    background-color: #5e3370;
+}
